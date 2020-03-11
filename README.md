@@ -88,9 +88,3 @@ $ python3 theYes.py biography drama history
 ## License
 
 This project is to be used/altered freely by anyone!
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
