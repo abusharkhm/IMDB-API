@@ -22,6 +22,8 @@ It'll then allow you to search for movies using any combination of the aforement
 ```
 $ sys.getsizeof(data_dict)
 295024
+$ sys.getsizeof(data_dict) * 6500
+1917656000
 ```
 That is the # of bytes our data_dict takes up. Multiplying this number by 6,500 to scale for IMDB's entire movie database, we get 1917656000 bytes, which equates to 1.786 Gb. This isn't too bad, and most computers should be able to handle an in-memory data structure of this size. 32-bit computes have a theoretical RAM limit of 4 Gb, while 64-bit computers have a theoretical RAM limit of 16 Eb.
 
