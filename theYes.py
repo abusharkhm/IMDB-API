@@ -4,7 +4,6 @@ import argparse
 import lxml #for speed
 import urllib.request
 import re
-import sys
 
 data_dict = defaultdict(list)
 
@@ -96,8 +95,6 @@ def query(to_query):
             keywords = "hanks spielberg 1998" will return only ["Saving Private Ryan"],
         but keywords = "hanks spielberg 1874" will return an empty list.
     """
-    # print("Size of dict in bytes:")
-    # print(sys.getsizeof(data_dict))
     word_list = to_query.lower().split()
     result_list = []
     for word in word_list:
